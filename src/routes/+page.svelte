@@ -1,6 +1,5 @@
 <script>	
 	import { page } from '$app/stores';	
-	console.log(page)
 </script>
 
 <svelte:head>
@@ -8,8 +7,8 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	{$page.params.id}
+<section class="container mx-auto">
+	main
 </section>
 
 <style>
